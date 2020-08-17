@@ -19,16 +19,16 @@
    <soapenv:Body>
       <ser:Con_Stroka>
          <!--Optional:-->
-         <ser:x>Test</ser:x>
+         <ser:x>aaaa</ser:x>
          <!--Optional:-->
-         <ser:y>String</ser:y>
+         <ser:y>zzzz</ser:y>
       </ser:Con_Stroka>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
         <con:assertion type="Valid HTTP Status Codes" id="69079e6d-b01e-4178-8771-09df4fcf313c" name="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
-            <codes>200</codes>
+            <codes>404</codes>
           </con:configuration>
         </con:assertion>
         <con:assertion type="SOAP Fault Assertion" id="95b92f55-b7f5-449d-b295-7977792c0e90" name="Not SOAP Fault"/>
