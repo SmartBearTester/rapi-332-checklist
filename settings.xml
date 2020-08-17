@@ -6,7 +6,7 @@
   <con:properties>
     <con:property>
       <con:name>proj-prop</con:name>
-      <con:value>value</con:value>
+      <con:value>remote</con:value>
     </con:property>
   </con:properties>
   <con:wssContainer/>
