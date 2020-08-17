@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="96a9b6c2-312c-4277-a074-1c75f4cdbecb" isOneWay="false" action="http://localhost/test_service/Service1.asmx/getArrayString" name="getArrayString" bindingOperationName="getArrayString" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="getArrayString" isOneWay="false" inputName="" id="96a9b6c2-312c-4277-a074-1c75f4cdbecb" bindingOperationName="getArrayString" action="http://localhost/test_service/Service1.asmx/getArrayString" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="96a9b6c2-312c-4277-a074-1c75f4cdbecbfileName">getArrayString</con:setting>
   </con:settings>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="c7ff21c5-ecd0-47ae-8935-7716dfc6bbef" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase timeout="0" searchProperties="true" name="TestCase 2" keepSession="false" id="c7ff21c5-ecd0-47ae-8935-7716dfc6bbef" failTestCaseOnErrors="true" failOnError="true" discardOkResults="false" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="c7ff21c5-ecd0-47ae-8935-7716dfc6bbeffileName">TestCase-2</con:setting>
   </con:settings>
-  <con:testStep type="request" id="9cef5828-8e98-4c48-8096-764a1bb4adbe" name="SOAP Request">
+  <con:testStep type="request" name="SOAP Request" id="9cef5828-8e98-4c48-8096-764a1bb4adbe">
     <con:settings/>
     <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:interface>Test_serviceSoap</con:interface>
       <con:operation>Con_Stroka</con:operation>
-      <con:request name="SOAP Request" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="437d59a5-3ab7-4b48-bfd8-051e58f78f6d">
+      <con:request wssPasswordType="" useWsReliableMessaging="false" useWsAddressing="false" timeout="" sslKeystore="" outgoingWss="" name="SOAP Request" incomingWss="" id="437d59a5-3ab7-4b48-bfd8-051e58f78f6d">
         <con:settings>
           <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
         </con:settings>
@@ -19,28 +19,28 @@
    <soapenv:Body>
       <ser:Con_Stroka>
          <!--Optional:-->
-         <ser:x>aaaa</ser:x>
+         <ser:x>Test</ser:x>
          <!--Optional:-->
-         <ser:y>zzzz</ser:y>
+         <ser:y>remote</ser:y>
       </ser:Con_Stroka>
    </soapenv:Body>
 </soapenv:Envelope>]]></con:request>
-        <con:assertion type="Valid HTTP Status Codes" id="69079e6d-b01e-4178-8771-09df4fcf313c" name="Valid HTTP Status Codes">
+        <con:assertion id="69079e6d-b01e-4178-8771-09df4fcf313c" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
             <codes>404</codes>
           </con:configuration>
         </con:assertion>
-        <con:assertion type="SOAP Fault Assertion" id="95b92f55-b7f5-449d-b295-7977792c0e90" name="Not SOAP Fault"/>
-        <con:assertion type="Schema Compliance" id="9f571d30-f33e-4365-8739-e4e2e03017b8" name="Schema Compliance">
+        <con:assertion type="Schema Compliance" name="Schema Compliance" id="9f571d30-f33e-4365-8739-e4e2e03017b8">
           <con:configuration/>
         </con:assertion>
+        <con:assertion type="SOAP Fault Assertion" name="Not SOAP Fault" id="95b92f55-b7f5-449d-b295-7977792c0e90"/>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
         <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Con_Stroka"/>
+        <con:wsaConfig version="200508" mustUnderstand="NONE" action="http://localhost/test_service/Service1.asmx/Con_Stroka"/>
         <con:wsrmConfig version="1.2"/>
       </con:request>
     </con:config>

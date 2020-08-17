@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation id="1a4add5f-2784-43b1-9c35-221dc576098d" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_float" name="test_float" bindingOperationName="test_float" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="test_float" isOneWay="false" inputName="" id="1a4add5f-2784-43b1-9c35-221dc576098d" bindingOperationName="test_float" action="http://localhost/test_service/Service1.asmx/test_float" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="1a4add5f-2784-43b1-9c35-221dc576098dfileName">test_float</con:setting>
   </con:settings>

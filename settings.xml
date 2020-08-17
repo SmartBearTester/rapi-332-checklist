@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="1f9516ea-1add-42ba-82f9-024902061d15" created="3.3.2-AT" activeEnvironment="Default environment" name="rapi-332-checklist-git" compositeProjectFormat="1.3" updated="3.3.2-AT" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project updated="3.3.2-AT" name="rapi-332-checklist-git" id="1f9516ea-1add-42ba-82f9-024902061d15" created="3.3.2-AT" compositeProjectFormat="1.3" activeEnvironment="Default environment" encryptionMode="Not encrypted" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="1f9516ea-1add-42ba-82f9-024902061d15fileName">rapi-332-checklist-git</con:setting>
   </con:settings>
   <con:properties>
     <con:property>
       <con:name>proj-prop</con:name>
-      <con:value>some</con:value>
+      <con:value>remote</con:value>
     </con:property>
   </con:properties>
   <con:wssContainer/>
@@ -14,7 +14,18 @@
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
-  <con:reporting/>
+  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
+    <con:script>// Save all test step results into files
+// Change the directory path in line 5 to a location where you want to store details
+// then uncomment lines 5 to 10
+
+// filePath = 'C:\\tempOutputDirectory\\'
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
+// testStepResult.writeTo(pw)
+// pw.close()
+// fos.close()</con:script>
+  </con:eventHandlers>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to SoapUI Pro tests
@@ -31,18 +42,6 @@
 //   headers.put('auth_token2', token)
 //   request.requestHeaders = headers
 // }</con:script>
-  </con:eventHandlers>
-  <con:eventHandlers type="TestRunListener.afterStep" name="TestRunListener.afterStep">
-    <con:script>// Save all test step results into files
-// Change the directory path in line 5 to a location where you want to store details
-// then uncomment lines 5 to 10
-
-// filePath = 'C:\\tempOutputDirectory\\'
-// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
-// pw = new java.io.PrintWriter(fos)
-// testStepResult.writeTo(pw)
-// pw.close()
-// fos.close()</con:script>
   </con:eventHandlers>
   <con:authRepository/>
   <con:tags/>
