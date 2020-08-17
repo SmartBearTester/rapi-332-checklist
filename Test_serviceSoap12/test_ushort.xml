@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="36c74773-3765-4a7a-a90a-9aafc05ea450" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_ushort" name="test_ushort" bindingOperationName="test_ushort" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="36c74773-3765-4a7a-a90a-9aafc05ea450fileName">test_ushort</con:setting>
+  </con:settings>
+</con:operation>

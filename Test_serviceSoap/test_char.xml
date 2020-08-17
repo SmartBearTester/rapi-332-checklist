@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="ca6705ba-d34e-43f3-82f4-af83ea16acce" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_char" name="test_char" bindingOperationName="test_char" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ca6705ba-d34e-43f3-82f4-af83ea16accefileName">test_char</con:setting>
+  </con:settings>
+</con:operation>

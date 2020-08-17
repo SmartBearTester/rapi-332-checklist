@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="0a6408b5-f07c-4aa8-a6f6-3e32504b82e9" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_class_array_input_array" name="test_class_array_input_array" bindingOperationName="test_class_array_input_array" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="0a6408b5-f07c-4aa8-a6f6-3e32504b82e9fileName">test_class_array_input_array</con:setting>
+  </con:settings>
+</con:operation>

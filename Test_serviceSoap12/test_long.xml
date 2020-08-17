@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="b3bdb564-b5bd-436a-add7-2bb512a46ee8" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_long" name="test_long" bindingOperationName="test_long" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="b3bdb564-b5bd-436a-add7-2bb512a46ee8fileName">test_long</con:setting>
+  </con:settings>
+</con:operation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="dcc6ba31-c5bb-4e5d-b92b-c0e493603930" isOneWay="false" action="http://localhost/test_service/Service1.asmx/getArrayInt" name="getArrayInt" bindingOperationName="getArrayInt" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="dcc6ba31-c5bb-4e5d-b92b-c0e493603930fileName">getArrayInt</con:setting>
+  </con:settings>
+</con:operation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="fc81b478-e8f0-4b94-bfee-0edb960f92fd" isOneWay="false" action="http://localhost/test_service/Service1.asmx/object_in_object" name="object_in_object" bindingOperationName="object_in_object" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="fc81b478-e8f0-4b94-bfee-0edb960f92fdfileName">object_in_object</con:setting>
+  </con:settings>
+</con:operation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="ac0ab7ca-9f76-455b-a303-54ccc3bb72b6" isOneWay="false" action="http://localhost/test_service/Service1.asmx/Vse" name="Vse" bindingOperationName="Vse" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="ac0ab7ca-9f76-455b-a303-54ccc3bb72b6fileName">Vse</con:setting>
+  </con:settings>
+</con:operation>

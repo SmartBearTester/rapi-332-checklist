@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="286ff59b-0117-48cf-a0f0-5da87cab9ae9" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_uint" name="test_uint" bindingOperationName="test_uint" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="286ff59b-0117-48cf-a0f0-5da87cab9ae9fileName">test_uint</con:setting>
+  </con:settings>
+</con:operation>

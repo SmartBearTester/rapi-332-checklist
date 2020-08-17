@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="59d0a68f-ccd3-4950-ab05-33add4635e5e" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_double" name="test_double" bindingOperationName="test_double" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="59d0a68f-ccd3-4950-ab05-33add4635e5efileName">test_double</con:setting>
+  </con:settings>
+</con:operation>
