@@ -8,7 +8,8 @@
     <con:config>
       <script>log.info("First");
 log.info("Second");
-log.info("to branch");</script>
+log.info("to branch");
+// commit from ubuntu</script>
     </con:config>
   </con:testStep>
   <con:properties/>
