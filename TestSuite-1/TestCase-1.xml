@@ -7,7 +7,8 @@
     <con:settings/>
     <con:config>
       <script>log.info("First");
-log.info("Second");</script>
+log.info("Second");
+log.info("to branch");</script>
     </con:config>
   </con:testStep>
   <con:properties/>
