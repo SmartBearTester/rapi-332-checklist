@@ -19,7 +19,7 @@
    <soapenv:Body>
       <ser:Con_Stroka>
          <!--Optional:-->
-         <ser:x>Test</ser:x>
+         <ser:x>branch</ser:x>
          <!--Optional:-->
          <ser:y>remote</ser:y>
       </ser:Con_Stroka>
@@ -28,7 +28,7 @@
         <con:assertion id="69079e6d-b01e-4178-8771-09df4fcf313c" name="Valid HTTP Status Codes" type="Valid HTTP Status Codes">
           <con:settings/>
           <con:configuration>
-            <codes>404</codes>
+            <codes>200, 101</codes>
           </con:configuration>
         </con:assertion>
         <con:assertion type="Schema Compliance" name="Schema Compliance" id="9f571d30-f33e-4365-8739-e4e2e03017b8">
