@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="delay_response" isOneWay="false" inputName="" id="4c4ef8a2-65fe-4332-af38-4696940d20c5" bindingOperationName="delay_response" action="http://localhost/test_service/Service1.asmx/delay_response" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="delay_response" isOneWay="false" inputName="" id="4c4ef8a2-65fe-4332-af38-4696940d20c5" bindingOperationName="delay_response" action="http://localhost/test_service/Service1.asmx/delay_response" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="4c4ef8a2-65fe-4332-af38-4696940d20c5fileName">delay_response</con:setting>
   </con:settings>

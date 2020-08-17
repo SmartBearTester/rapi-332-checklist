@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Ran_XML" isOneWay="false" inputName="" id="beda06e9-1c8c-4645-bd05-3fff1801aaf9" bindingOperationName="Ran_XML" action="http://localhost/test_service/Service1.asmx/Ran_XML" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Ran_XML" isOneWay="false" inputName="" id="beda06e9-1c8c-4645-bd05-3fff1801aaf9" bindingOperationName="Ran_XML" action="http://localhost/test_service/Service1.asmx/Ran_XML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="beda06e9-1c8c-4645-bd05-3fff1801aaf9fileName">Ran_XML</con:setting>
   </con:settings>

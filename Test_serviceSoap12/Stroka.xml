@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Stroka" isOneWay="false" inputName="" id="cdb30150-0684-44a2-b6ea-9d19bff7c792" bindingOperationName="Stroka" action="http://localhost/test_service/Service1.asmx/Stroka" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Stroka" isOneWay="false" inputName="" id="cdb30150-0684-44a2-b6ea-9d19bff7c792" bindingOperationName="Stroka" action="http://localhost/test_service/Service1.asmx/Stroka" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="cdb30150-0684-44a2-b6ea-9d19bff7c792fileName">Stroka</con:setting>
   </con:settings>

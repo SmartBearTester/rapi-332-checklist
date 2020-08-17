@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Vse" isOneWay="false" inputName="" id="0b076284-7fcd-4f6a-bac2-640ee0781bf2" bindingOperationName="Vse" action="http://localhost/test_service/Service1.asmx/Vse" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="Vse" isOneWay="false" inputName="" id="0b076284-7fcd-4f6a-bac2-640ee0781bf2" bindingOperationName="Vse" action="http://localhost/test_service/Service1.asmx/Vse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="0b076284-7fcd-4f6a-bac2-640ee0781bf2fileName">Vse</con:setting>
   </con:settings>

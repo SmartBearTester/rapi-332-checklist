@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="inheritance_class" isOneWay="false" inputName="" id="13ec13ec-d2a0-4bb8-9609-fed4ab338a9f" bindingOperationName="inheritance_class" action="http://localhost/test_service/Service1.asmx/inheritance_class" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="inheritance_class" isOneWay="false" inputName="" id="13ec13ec-d2a0-4bb8-9609-fed4ab338a9f" bindingOperationName="inheritance_class" action="http://localhost/test_service/Service1.asmx/inheritance_class" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="13ec13ec-d2a0-4bb8-9609-fed4ab338a9ffileName">inheritance_class</con:setting>
   </con:settings>

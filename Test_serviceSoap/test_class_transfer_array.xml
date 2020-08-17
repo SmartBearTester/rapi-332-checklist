@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="test_class_transfer_array" isOneWay="false" inputName="" id="433c08ee-8055-473a-b8a6-f73a614ca55c" bindingOperationName="test_class_transfer_array" action="http://localhost/test_service/Service1.asmx/test_class_transfer_array" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="test_class_transfer_array" isOneWay="false" inputName="" id="433c08ee-8055-473a-b8a6-f73a614ca55c" bindingOperationName="test_class_transfer_array" action="http://localhost/test_service/Service1.asmx/test_class_transfer_array" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="433c08ee-8055-473a-b8a6-f73a614ca55cfileName">test_class_transfer_array</con:setting>
   </con:settings>

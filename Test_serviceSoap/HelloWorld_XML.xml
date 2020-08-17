@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="HelloWorld_XML" isOneWay="false" inputName="" id="03977c6d-8de7-4a91-96b7-ecf8af129107" bindingOperationName="HelloWorld_XML" action="http://localhost/test_service/Service1.asmx/HelloWorld_XML" xmlns:con="http://eviware.com/soapui/config">
+<con:operation type="Request-Response" sendsAttachments="false" receivesAttachments="false" name="HelloWorld_XML" isOneWay="false" inputName="" id="03977c6d-8de7-4a91-96b7-ecf8af129107" bindingOperationName="HelloWorld_XML" action="http://localhost/test_service/Service1.asmx/HelloWorld_XML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="03977c6d-8de7-4a91-96b7-ecf8af129107fileName">HelloWorld_XML</con:setting>
   </con:settings>
